@@ -16,6 +16,328 @@
   <title></title>
   
     <style type="text/css">
+       /* font-face */
+       @font-face {
+            font-family: 'Arial Bold MT';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Arial Lgt';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Arial-Lgt.svg#Arial-Lgt') format('svg');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Helvetica Neue Bold';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Myriad Pro Light Cond';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-LightCond.svg#MyriadPro-LightCond') format('svg');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans 100';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-100.svg#MuseoSans-100') format('svg');
+            font-weight: 200;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Myriad Pro Regular';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Museo 100';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/Museo-100.svg#Museo-100') format('svg');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans 900';
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.eot');
+            src: url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.eot?#iefix') format('embedded-opentype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.woff2') format('woff2'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.woff') format('woff'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.ttf') format('truetype'),
+                url('http://dev.oneblinktech.com/myproxypass/fonts/MuseoSans-900.svg#MuseoSans-900') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        /*Outlook Reset Styles*/
+        .ExternalClass p {
+            margin: 0px;
+        }
+
+        .ReadMsgBody {
+            width: 100%
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        .ExternalClass,
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+
+        .mobile-link--footer a {
+            color: #666666 !important;
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        #body_text td {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        /*Global Styles*/
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+
+            /*Default Font*/
+            font-family: 'Tahoma', Verdana, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #202020;
+        }
+
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            display: block;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            display: block;
+            margin: 2px 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .yshortcuts a {
+            border-bottom: none !important;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+        }
+
+        .mcnPreviewText {
+            display: none !important;
+        }
+
+        /*Buttons & other sections*/
+        .button {
+            display: inline-block;
+            letter-spacing: 2px;
+            padding: 10px 10px;
+            text-decoration: none;
+            background: #6b6b6b;
+            background-color: #6b6b6b;
+            border-radius: 5px;
+        }
+
+        .bullet {
+            background: #6b6b6b;
+            background-color: #6b6b6b;
+            border-radius: 5px;
+            text-align: center;
+            padding: 3px 0px 3px 0px;
+            margin: 0 auto !important;
+            display: block;
+            width: 100%;
+        }
+
+        /*obile Responsives Styles*/
+        @media only screen and (max-width:480px) {
+            .mj-full-width-mobile {
+                width: 100% !important;
+            }
+
+            .centermobile {
+                margin: 0 auto !important;
+            }
+
+            .blockwrap {
+                display: block !important;
+            }
+
+            .hide {
+                display: none !important;
+            }
+
+            .textcenter {
+                text-align: center !important;
+            }
+
+            .textleft {
+                text-align: left !important;
+            }
+
+            .textright {
+                text-align: right !important;
+            }
+
+            .paddingtotal {
+                padding: 0px 0px 0px 0px !important;
+            }
+
+            .paddingsi {
+                padding: 20px 0px 20px 0px !important;
+            }
+
+            .paddingid {
+                padding: 0px 20px 0px 20px !important;
+            }
+
+            .textminium {
+                font-size: 14px !important;
+            }
+
+            .headerminium {
+                font-size: 20px !important;
+            }
+
+
+        }
+
+        @media screen and (max-width: 600px) {
+            img {
+                width: 100% !important;
+            }
+        }
+
+        /*Right & Left Column Responsives Styles*/
+        @media screen and (max-width: 600px) {
+
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+        }
+
+        @media screen and (max-width: 600px) {
+
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+        }
+
+        /*Container Styles*/
+        .wrapper {
+            max-width: 600px;
+            margin: 0 auto !important;
+        }
+
+        .clear {
+            width: inherit;
+            clear: both;
+        }
       @media only screen and (min-width: 920px) {
     h4.cstHeading {
     font-size: 22px;
